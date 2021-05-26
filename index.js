@@ -2,10 +2,17 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown  = require('./utils/generateMarkdown');
+const generateReadme = require("./utils/generateReadme")
 
 // What questions we are going to ask for readme
-const questions = [
+function askQuestions() {
+  return inquirer.prompt ([
     {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of your project?'
+      },
+      {
         type: 'input',
         name: 'github',
         message: 'What is your GitHub username?'
@@ -14,11 +21,6 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'What is your email address?'
-      },
-      {
-        type: 'input',
-        name: 'title',
-        message: "What is your project's name?"
       },
       {
         type: 'input',
@@ -45,21 +47,26 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'usage',
-        message: 'What does the user need to know about using the repo?'
-      },
-      {
-        type: 'input',
         name: 'contributing',
-        message: 'What does the user need to know about contributing to the repo?'
+        message: 'What info should other developers know about contributing to your project?'
       }
-];
+    ]);
+} 
+
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  const data = askQuestions();
+  const newContent = ('./utils/README.md', newContent)
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer.prompt(questions).then(inquirerResponses => {
+    console.log('Generating README...');
+    writeToFile('README.md', generateMarkdown({ ...inquirerResponses }));
+  });
+}
 
 // Function call to initialize app
 init();
