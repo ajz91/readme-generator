@@ -1,5 +1,5 @@
 # AJ's Apples!
-  ![GitHub license](https://img.shields.io/badge/license-BSD 3-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 We design apples!
@@ -23,15 +23,15 @@ We design apples!
 npm i
 
 ## Usage
-They need to know what kind of apples they would like!
+What apples look like!
 
 ## License
-    This application is covered under the BSD 3 license.
+    This application is covered under the MIT license.
 
-![GitHub license](https://img.shields.io/badge/license-BSD 3-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   
 ## Contributing
-They need to know the ins and outs of apples!
+How to design apples!
 
 ## Tests
 
@@ -39,5 +39,5 @@ To run tests, run npm test !!
 
 ## Questions
 
-If you have any questions, please email ajz91@github.com. Other works can be found at [ajz91](https://github.com/ajz91/).
+If you have any questions, please email ajziarek@pm.me. Other works can be found at [ajz91](https://github.com/ajz91/).
 

@@ -64,7 +64,7 @@ To run tests, run ${data.test} !!
 
 ## Questions
 
-If you have any questions, please email ${data.email}. Other works can be found at [${data.github}](https://github.com/${data.github}/).
+If you have any questions, please email ${data.email}. Other works can be found at [${data.github}](https://github.com/${data.github}/). Please view the video walkthrough in the root directory for a demonstration on how to use this application!
 
 `;
 }
