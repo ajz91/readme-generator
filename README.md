@@ -6,6 +6,9 @@ This application allows you to input information pertinent to creating a great R
   
 ## Usage
 
-The user will be able to run the app using 'node index', input the required information, then have the README automatically generated! GIF included for additional clarity. An mp4 file is also included in the root of the folder ('sample_video.mp4')
+The user will be able to run the app using 'node index', input the required information, then have the README automatically generated! GIF included for additional clarity. An mp4 file is also included in the root of the folder (or on youtube https://www.youtube.com/watch?v=NE71M9BiUvw)
 
 ![](samplegif.gif)
+
+
+![](samplescreenshot.png)
